@@ -1,21 +1,19 @@
-# Ejemplos básicos de Pipelines Declarativos de Jenkins
+# Basic examples of Jenkins Declarative Pipelines
 
-Este repositorio contiene unos esqueletos básicos para la declaración de Pipelines Declarativos de Jenkins.
+This repository contains some basic skeletons for the declaration of Jenkins Declarative Pipelines.
 
-Está separado por ficheros, los cuales contienenen una descripción básica del contenido de cada Pipeline. 
-Se ha decidido separarlo por ficheros para que sea más fácil de visualizar la declaración de cada elemento.
-
-
-## Configuración con ficheros externos
-
-Para pipelines en los cuales en necesario trabajar con diferentes configuraciones, se recomiendo externalizar 
-la configuración en ficheros externos *.groovy*.
-
-Se puede encontrar un ejemplo de estos ficheros en el directorio configuraciones.
-
-Para cargar estas variables de entorno, se deberían seguir las indicaciones del fichero **readProperties.Jenkinsfile**
+It is separated by files, which contain a basic description of the content of each Pipeline.
+It has been decided to separate it by files to make it easier to visualize the declaration of each element.
 
 
+## Configuration with external files
+
+For pipelines in which it is necessary to work with different configurations, it is recommended to outsource
+the configuration in external * .groovy * files.
+
+An example of these files can be found in the configurations directory.
+
+To load these environment variables, the instructions in the file ** readProperties.Jenkinsfile ** should be followed.
 ## Referencia oficial Jenkinsfile
 
 [https://jenkins.io/doc/book/pipeline/syntax/](https://jenkins.io/doc/book/pipeline/syntax/)
